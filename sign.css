@@ -50,4 +50,18 @@ body, html {
     transform: translate(-50%, -50%) skew(-2deg) rotate(1.5deg);
 }
 
-
+@media (max-width: 400px) {
+    .text-form {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+    #text-form input[type="text"],
+    #text-form button {
+        display: block;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+}
