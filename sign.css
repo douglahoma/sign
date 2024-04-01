@@ -1,0 +1,50 @@
+@font-face {
+    font-family: sign;
+    src: url(./KGPrimaryPenmanship.ttf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+  .image-container img {
+    width: 50%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    color: #E1DBCD;
+    white-space: nowrap;
+}
+
+#text-overlay-1 {
+    font-family: sign;
+    font-size: 23px;
+    top: 67%;
+    left: 50%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    transform: translate(-50%, -50%) skew(1deg) rotate(.5deg);
+}
+
+#text-overlay-2 {
+    font-family: sign;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 75.5%;
+    left: 50%;
+    letter-spacing: .15rem;
+    transform: translate(-50%, -50%) skew(-2deg) rotate(1.5deg);
+}
