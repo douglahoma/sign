@@ -21,6 +21,7 @@ body, html {
   .image-container img {
     width: 50%;
     height: auto;
+    min-width: 585px;
 }
 
 .text-overlay {
@@ -48,3 +49,5 @@ body, html {
     letter-spacing: .15rem;
     transform: translate(-50%, -50%) skew(-2deg) rotate(1.5deg);
 }
+
+
