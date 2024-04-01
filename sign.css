@@ -50,10 +50,29 @@ body, html {
     transform: translate(-50%, -50%) skew(-2deg) rotate(1.5deg);
 }
 
-@media (max-width: 400px) {
+.text-form {
+    max-width: 500px;
+    min-width: 50px;;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#text-form input[type="text"],
+#text-form button {
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+    body, html {
+        display: block;
+        padding: 20px 0;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 450px) {
     .text-form {
-        display: flex;
-        flex-direction: column;
         display: block;
         margin: 10px 0;
         box-sizing: border-box;
